@@ -1,0 +1,42 @@
+body {
+    overflow: hidden;
+}
+
+a.html {
+    background: #181421;
+}
+
+
+.content h1 {
+    font-family: "Righteous";
+    color: aliceblue;
+    font-size: 5rem;
+    margin: 0 0 0 50px;
+    letter-spacing: 5px;
+}
+
+.content h2 {
+    font-family: "Poiret One";
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 0 0 20px 50px;
+}
+
+.content h1.first {
+    font-size: 4rem;
+    color: rgb(92, 92, 92);
+}
+
+.content h1.second {
+    font-size: 4.5rem;
+    color: rgb(155, 155, 155);
+}
+
+.content h1.third {
+    font-size: 5rem;
+    color: rgb(202, 202, 202);
+}
+
+.content h1.main {
+    font-size: 7rem;
+}

@@ -1,0 +1,122 @@
+a.css {
+    background: #181421;
+}
+
+.content {
+    color: white;
+    overflow-y: scroll;
+}
+
+.content .first-section h1 {
+    font-size: 3rem;
+    font-family: "Asap";
+    font-weight: 600;
+    margin: 10vh 0 0 10vw;
+    max-width: 32vw;
+}
+
+.content .first-section h2 {
+    font-family: "Poiret One";
+    font-size: 1.5rem;
+    margin: 1vh 0 0 10vw;
+    max-width: 32vw;
+}
+
+.first-section {
+    display: flex;
+    margin: 50px;
+}
+
+.first-section img {
+    width: 20vw;
+    border-radius: 20px;
+    margin: 5vh 0 0 5vw;
+}
+
+.first-section button {
+    margin: 10vh 0 0 10vw;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: linear-gradient(#42a5f5, #0861aa);
+    font-family: "Asap";
+}
+
+
+
+.description img.arrow {
+    max-width: 7vw;
+    margin: 1vh 0 0 30vw;
+}
+
+.techs {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 0 60px;
+    padding: 10px;
+    width: 800px;
+    -webkit-border-radius: 37px;
+    border-radius: 37px;
+    background: #13101a;
+    -webkit-box-shadow: 5px 5px 17px #08060a, -5px -5px 17px #1e1a2a;
+    box-shadow: 5px 5px 17px #08060a, -5px -5px 17px #1e1a2a;
+}
+
+.techs .one-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 4vw;
+    margin: 0;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.one-box:hover {
+    box-shadow: inset 5px 5px 19px #08060a,
+                inset -5px -5px 19px #1e1a2a;
+}
+
+.one-box img {
+    max-width: 4vw;
+    margin: 0;
+}
+
+.second-section {
+    margin: 20vh 0 0 8vw;
+}
+
+.second-section h2 {
+    font-family: "Asap";
+    font-size: 2rem;
+    margin-bottom: 70px;
+    font-weight: 500;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    font-family: "Poiret One";
+    margin-bottom: 150px;
+}
+
+
+.hobbies .line {
+    width: 2px;
+    height: 250px;
+    background: #42a5f5;
+}
+
+.hobbies h3 {
+    font-size: 1.5rem;
+}
+
+.hobbies p {
+    max-width: 15vw;
+    font-size: 1.2rem;
+}
+
