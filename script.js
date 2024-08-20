@@ -12,7 +12,7 @@ document.addEventListener('mousemove', function(e) {
         setTimeout(() => {
             trail.style.left = `${x}px`;
             trail.style.top = `${y}px`;
-        }, index * 10);  // Zpoždění pro vytvoření efektu stopy
+        }, index * 10);
     });
 });
 
